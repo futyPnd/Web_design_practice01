@@ -19,13 +19,13 @@
 
   <main>
     <h1>＜お問い合わせ＞</h1>
-    <form class="contact" action="inquiry.html.html" method="post">
+    <form class="contact" action="sucsess.html" method="post">
       <label>名前: <input type="text" name="name" placeholder="名前を入力してください" required></label><br>
       <label>メールアドレス: <input type="email" name="email" placeholder="メールアドレスを入力" required></label><br>
       <label>お問い合わせ内容:<br><textarea name="" rows="10" cols="100" placeholder="お問い合わせ内容を入力して下さい" required></textarea></label><br>
 
       <div class="section">
-        <h3>プライバシーポリシー</h3>
+        <h3 id="privacy">プライバシーポリシー</h3>
         <div class="text">
           <p>WebDesigners' Shop(以下,「当サイト」といいます。)は,本ウェブサイト上で提供するサービス(以下,「本サービス」といいます。)におけるプライバシー情報の取扱いについて,以下のとおりプライバシーポリシー(以下,「本ポリシー」といいます。)を定めます。</p>
           <p>第1条(プライバシー情報)</p>
@@ -99,7 +99,9 @@
           </ol>
         </div>
       </div>
-      <input type="checkbox" name="check" required>上記の規約に同意します<br>
+      <label for="acceptPoricy">
+        <input type="checkbox" id="acceptPoricy" name="acceptPoricy" required>上記の規約に同意します<br>
+      </label>
       <input type="submit" name="submit" value="内容を送信">
     </form>
 
