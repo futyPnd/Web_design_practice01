@@ -23,14 +23,14 @@
     <div class="htmlsticker">
       <p>当ショップオリジナルのHTML5のタグTシャツです！<br>HTMLのタグが好きでたまらない方、自分の生活にWebの要素を加えたい方など幅広く着用いただけます！<br>今回、Tシャツの色を白、黒、ベージュの３色をご用意いたしました！</p>
       <ruby>価格<rp>(</rp><rt>かかく</rt><rp>)</rp> : <strong>2500円</strong>(税込)</ruby><br>
-      <label for="color">
+      <form class="order" action="order.html" method="post">
         <select id="color" name="color">
           <option>白</option>
           <option>黒</option>
           <option>ベージュ</option>
-        </select>
-      </label><br>
-      <a href="order.html">購入する</a>
+        </select><br>
+        <input type="submit" name="order" value="購入する">
+      </form>
     </div>
     <div class="order">
       <h1>＜注文にあたっての注意＞</h1>

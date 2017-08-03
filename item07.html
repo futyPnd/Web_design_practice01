@@ -23,15 +23,15 @@
     <div class="htmlsticker">
       <p>当ショップオリジナルのCSSのパーカーです！<br>CSSが好きでたまらない方、自分の生活にWebの要素を加えたい方など幅広くご使用いただけます。<br>今回はこちらのパーカの色を白、黒、ベージュ、紫の４色ご用意しました！</p>
       <ruby>価格<rp>(</rp><rt>かかく</rt><rp>)</rp> : <strong>2700円</strong>(税込)</ruby><br>
-      <label for="color">
+      <form class="order" action="order.html" method="post">
         <select id="color" name="color">
           <option>白</option>
           <option>黒</option>
           <option>ベージュ</option>
           <option>紫</option>
-        </select>
-      </label><br>
-      <a href="order.html">購入する</a>
+        </select><br>
+        <input type="submit" name="order" value="購入する">
+      </form>
     </div>
     <div class="order">
       <h1>＜注文にあたっての注意＞</h1>
